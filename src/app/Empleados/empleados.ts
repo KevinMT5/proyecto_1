@@ -4,7 +4,7 @@ import { Empleado } from "../empleado/empleado";
 @Component({
   selector: "app-empleados",
   standalone: true,
-  imports: [Empleado],
+  imports:[Empleado],
   templateUrl: "./empleados.html",
   styleUrls: ["./empleados.css"]
 })
