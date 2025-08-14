@@ -1,4 +1,15 @@
 /* Centrar el formulario en la pantalla */
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: #007bff;
+}
+
+.font{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 form {
   max-width: 400px;
   margin: 50px auto;
