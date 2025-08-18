@@ -1,0 +1,21 @@
+.caja-animada {
+  width: 200px;
+  height: 100px;
+  background: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 0 auto; /* centra horizontal */
+  margin-top: 20vh; /* baja un poco para centrar vertical */
+}
+
+.caja-animada.activa {
+  transform: scale(1.2) rotate(5deg);
+  background: #00c3ff;
+}
+
+

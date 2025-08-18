@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Hijo } from './hijo/hijo';
+import { Padre } from './padre/padre';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [Padre],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
